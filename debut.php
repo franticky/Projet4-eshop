@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <form id="loginDuFormulaire" method="post">
             <div class="text-center">
-                <img src="img/OIP.jpg" alt="logo surfbotte" id="surfbotte.sf" required>
+                <img src="img/logo.jpg" alt="logo surfbotte" id="surfbotte.sf" required>
 
             </div>
             <div class="mb-5">
@@ -36,9 +36,9 @@
                 if(isset($courrielVisiteur) && !empty($courrielVisiteur) && isset($passeVisiteur) && !empty($passeVisiteur)){
                     $courriel = "38@000.fr";
                     $passe = "38000";
-                        if(isset($courrielVisiteur) === $courriel && $passeVisiteur === $passe){
+                        if($courrielVisiteur == $courriel && $passeVisiteur == $passe){
                             $_SESSION['courriel'] = $courrielVisiteur;
-                              header(header:'Location: articles.php') ;                    
+                              header('Location: articles.php') ;                    
                          }else{
                             echo "<div class='mt-5 contenaire'>
                                 <p class='alert alert-warning p-5'>Probleme de passe ou de courriel</p>
