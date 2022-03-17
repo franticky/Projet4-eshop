@@ -1,0 +1,24 @@
+
+img {
+    border-radius: 50%;
+    width: 30%;
+    margin-left: 0%;
+    vertical-align: middle;
+}
+
+.form-control{
+  display: inline-table;
+  width: 20%;
+  background-clip: content-box;
+}
+
+body{
+    background-image: url('https://www.thehealthjournals.com/wp-content/uploads/2017/08/surfing-1600.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middlethere{
+    margin-left: 33%;
+    margin-top: -6%;
+}

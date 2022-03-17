@@ -8,15 +8,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../Projet4b/css/debut.css" rel="stylesheet"/>
+ 
+    <link href="../Projet4b/css/bootstrap.css" rel="stylesheet"/>
     <title>SurfBotte</title>
 </head>
 <body>
+
     <div class="container-fluid">
+    
         <form id="loginDuFormulaire" method="post">
             <div class="text-center">
-                <img src="img/logo.jpg" alt="logo surfbotte" id="surfbotte.sf" required>
+                <img src="img/logo.jpg" alt="logo surfbotte" id="surfbotte" required>
 
             </div>
+            <div class="middlethere">
             <div class="mb-5">
                 <label for="email" class="form-label">Courriel</label>
                 <input type="email" class="form-control" id="email" name="courriel" required>
@@ -27,6 +33,7 @@
             </div>
                 <a href="">mot de passe oublié ?</a>
                 <button type="submit" name="btn-acceder" class="mt-3 btn btn-secondary">Acceder</button>
+            </div>
         </form>    
     </div>
     <?php

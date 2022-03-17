@@ -1,0 +1,18 @@
+.img {
+    border-radius: 50%;
+    width: 21%;
+    margin-left: 32%;
+  }
+
+body{
+    background-image: url('https://www.theglassyhouse.com/wp-content/uploads/2017/04/pexels-photo-52697.jpeg');
+    background-image: no-repeat;
+}
+.forms1{
+    margin-right: 45%;
+    margin-top: -15%;
+}
+.forms2{
+    margin-left: 70%;
+    margin-top: -10%;
+}

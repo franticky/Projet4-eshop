@@ -1,0 +1,13 @@
+
+img {
+    border-radius: 50%;
+    width: 21%;
+    margin-left: 35%;
+  }
+body{
+    background-color: crimson;
+}
+body{
+    background-image: url('https://www.biscagrandslacs.com/sites/default/files/styles/slide_1920x1080/public/medias/images/surf-vague-biscarrosse.jpg?h=59f9d53c&itok=R_B-2hJt');
+    background-image: no-repeat;
+}

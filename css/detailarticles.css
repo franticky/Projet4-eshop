@@ -1,0 +1,30 @@
+.card-body {
+    width: 31%;
+    margin-left: 32%;
+    border-radius: 50%!important;
+}
+
+body{
+  background-image: url('https://www.theglassyhouse.com/wp-content/uploads/2017/04/pexels-photo-52697.jpeg');
+  background-size: 100%;
+  
+  background-repeat: no-repeat;
+  
+}
+img{
+  
+  border-radius: 50%;
+}
+
+.container-fluid{
+  display: inline-block;
+  border-radius: 50%;
+}
+.container{
+  display:inline-flex;
+}
+.card:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  
+}

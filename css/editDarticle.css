@@ -1,0 +1,21 @@
+
+img {
+    border-radius: 50%;
+    width: 21%;
+    margin-left: 35%;
+  }
+body{
+    background-color: crimson;
+}
+body{
+    background-image: url('https://cdn.cnn.com/cnnnext/dam/assets/130624174959-50-surf-spots-the-box.jpg');
+    background-image: no-repeat;
+}
+.forms1{
+    margin-right: 45%;
+    margin-top: -15%;
+}
+.forms2{
+    margin-left: 70%;
+    margin-top: -10%;
+}
