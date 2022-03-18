@@ -84,7 +84,7 @@ session_start();
                         <em class="card-text">date de depot: <?= $date_article->format('d-m-y')?></em>
 
                         <div class="container-fluid d-flex justify-content-center">
-                                <a href="articles.php" class="mt-2 btn btn-primary">retour</a>
+                                <a href="articles.php?page=1" class="mt-2 btn btn-primary">retour</a>
                                 <a href="#" class="mt-3btn btn-success">panier</a>
                         </div>
                     </div>

@@ -94,7 +94,7 @@ session_start();
 
                             <div class="d-flex justify-content-around">
                                 <button type="submit" name="btn-connexion" class="btn btn-primary">Mettre a jour</button>
-                                <a href="articles.php" class="btn btn-primary"></a>
+                                <a href="articles.php?page=1" class="btn btn-primary"></a>
                             </div>
                         </div>
                     </form>

@@ -55,7 +55,7 @@ session_start();
                         $debut = ($page - 1) * $limite;
                             $sql = "SELECT * FROM articles LIMIT $limite OFFSET $debut";
                                 $statement = $dbh->query($sql);
-                                    $resultRow = $dbh->query("SELECT COUNT(id_articles) FROM articles");
+                                    $resultRow = $dbh->query("SELECT COUNT(id_article) FROM articles");
                                         $total = $resultRow->fetchColumn();
                                             $nombrePage = ceil($total / $limite);
 
@@ -144,7 +144,7 @@ session_start();
                                     <div class="container-fluid d-flex justify-content-center">
                                         <a href="detailarticles.php?id_article=<?= $produit['id_article'] ?>"
                                             class="mt-2 btn btn-success">details</a>
-                                        <a href="editDarticle.php?id_article=<? $produit['id_article'] ?>"
+                                        <a href="editDarticle.php?id_article=<?= $produit['id_article'] ?>"
                                             class="mt-2 btn btn-danger">editer</a>
                                         <a href="supprimerarticle.php?id_article=<?= $produit['id_article'] ?>" 
                                             class="mt-2 btn btn-secondary">supprimer</a>

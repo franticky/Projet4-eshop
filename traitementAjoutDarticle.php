@@ -82,7 +82,7 @@ session_start();
         ));
                 if($insert){
                     echo "<p class='container alert alert-warning'>article ajouté</p>";
-                    echo "<a href='articles.php' class='container btn btn-success'>voir article</a>";
+                    echo "<a href='articles.php?page=1' class='container btn btn-success'>voir article</a>";
                 }
 }
 }else{

@@ -60,7 +60,7 @@ session_start();
 
                 if($delete){
                     echo "<p class='container alert alert-warning'>suppression effectuee</p>";
-                    echo "<div class='container'> <a href='articles.php' class='mt-5 btn btn-warining'>retour</a></div>";
+                    echo "<div class='container'> <a href='articles.php?page=1' class='mt-5 btn btn-warining'>retour</a></div>";
                     ?>
                         <style>
                             #form-delete{
@@ -83,7 +83,7 @@ session_start();
                 </p>
                  <div class="d-flex justify-content-center">
                     <button type="submit" name="btn-supprimer" class="btn btn-warning">confirmer</button>
-                    <a href="articles.php" class="btn btn-primary">annuler</a>
+                    <a href="articles.php?page=1" class="btn btn-primary">annuler</a>
                  </div>   
             </form>
 

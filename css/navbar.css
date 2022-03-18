@@ -5,6 +5,7 @@
     -ms-flex-preferred-size: auto;
     flex-basis: auto;
 }
+
 .collapse:not(.show) {
     display: none;
 }
@@ -18,4 +19,7 @@
 }
 *, *::before, *::after {
     box-sizing: border-box;
+}
+.searchbar{
+    display: inline-flex!important;
 }

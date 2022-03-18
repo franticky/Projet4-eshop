@@ -40,10 +40,12 @@
           </div>
         </li>
       </ul>
-      <form method="post">
+      
+      <form method="post" id="searchbar">
         <input class="form-control me-sm-2" type="search" name="trouver" placeholder="trouver">
         <button class="btn btn-secondary my-2 my-sm-0" name="btn-trouver" type="submit">Trouver</button>
       </form>
+     
       <?php
         if(isset($_POST['btn-trouver'])){
           if(isset($POST['trouver'])){

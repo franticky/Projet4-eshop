@@ -80,7 +80,7 @@ La classe sappele PDO & est orientee objet*/    $dbh = new PDO('mysql:host=local
 
                     if($update){
                         echo "<p class='container alert alert-secondary'>mis a jour complete</p>";
-                        echo "<div class='text-center'><a href='articles.php' class='container btn btn-warning'></a></div>";
+                        echo "<div class='text-center'><a href='articles.php?page=1' class='container btn btn-warning'></a></div>";
                     }else{
                         echo "<p class='alert alert-warning'>error d'ajout</p>";
                     }

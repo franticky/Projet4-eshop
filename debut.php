@@ -45,7 +45,7 @@
                     $passe = "38000";
                         if($courrielVisiteur == $courriel && $passeVisiteur == $passe){
                             $_SESSION['courriel'] = $courrielVisiteur;
-                              header('Location: articles.php') ;                    
+                              header('Location: articles.php?page=1') ;                    
                          }else{
                             echo "<div class='mt-5 contenaire'>
                                 <p class='alert alert-warning p-5'>Probleme de passe ou de courriel</p>

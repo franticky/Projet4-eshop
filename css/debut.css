@@ -2,7 +2,8 @@
 img {
     border-radius: 50%;
     width: 30%;
-    margin-left: 0%;
+    margin-left: -29%;
+    margin-top: 2%;
     vertical-align: middle;
 }
 
@@ -19,6 +20,11 @@ body{
 }
 
 .middlethere{
-    margin-left: 33%;
-    margin-top: -6%;
+    margin-left: 68%;
+    margin-right: 0%;
+    margin-top: -25%;
+}
+.mb-5 {
+    margin-bottom: 4rem !important;
+    display: contents;
 }

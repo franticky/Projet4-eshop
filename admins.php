@@ -22,7 +22,7 @@ if(isset($_SESSION['courriel'])){
 
     <?php
         try{
-            $db = new PDO("mysql:host=localhost;dbname=articles;charset=UTF8", "root", "");
+            $db = new PDO("mysql:host=localhost;dbname=surfbotte;charset=UTF8", "root", "");
             $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             echo "connection effectuee";
         }catch (PDOException $exception){
@@ -51,14 +51,14 @@ if(isset($_SESSION['courriel'])){
             foreach($utilisateurs as $utilisateur){
         ?>   
             <tr>
-                <th scope="row"><?= $utilisateur['id_users'] ?></th>
-                <td><?= $utilisateur['courriel'] ?></td>
-                <td><?= $utilisateur['passe'] ?></td>
+                <th scope="row"><?= $utilisateur['id_user'] ?></th>
+                <td><?= $utilisateur['mel_user'] ?></td>
+                <td><?= $utilisateur['passe_user'] ?></td>
                 <td>
                     <a href="" class="btn btn-success">edit</a>
                 </td>
                 <td>
-                    <a href="supprimer_utilisateur.php?id_utilisateur=<?= $utilisateur['id_users'] ?>" class="btn btn-success">supprimer</a>
+                    <a href="supprimer_utilisateur.php?id_utilisateur=<?= $utilisateur['id_user'] ?>" class="btn btn-success">supprimer</a>
                 </td>
             </tr>      
         <?php   
